@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #b8b8b8;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  box-sizing: border-box;
+  background-color: #3d3d3d;
+  color: #e0e0e0;
+}
+
+input:focus, textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 3px rgba(76, 175, 80, 0.5);
+}
+
+input.error, textarea.error {
+  border: 1px solid #ff5252;
+}
+
+.error-message {
+  color: #ff5252;
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.submit-button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.submit-button:hover {
+  background: #3d9140;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.4);
+}
+
+.feedback-display {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #363636;
+  border-radius: 4px;
+  border-left: 4px solid #4CAF50;
+}
+
+.feedback-display h2 {
+  margin-top: 0;
+  color: #4CAF50;
+}
+
+.feedback-display p {
+  margin: 8px 0;
+  color: #b8b8b8;
+}
+
+.feedback-display strong {
+  color: #e0e0e0;
+}
